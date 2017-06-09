@@ -10,7 +10,7 @@ dirname = os.path.dirname(__file__)
 
 
 class Tern(Completor):
-    filetype = 'javascript'
+    filetype = 'javascript.jsx'
     daemon = True
     trigger = r'\w+$|[\w\)\]\}\'\"]+\.\w*$'
 
